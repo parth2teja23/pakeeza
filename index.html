@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pakeeza</title>
+    <style>
+        html, body { margin: 0; }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <img src="./Copy of Pakeeza.png">
-    
+    <picture>
+        <source media="(max-width: 640px)" srcset="./pakeeza-sm.png">
+        <img src="./Copy of Pakeeza.png" alt="Pakeeza">
+    </picture>
+
 </body>
 </html>
